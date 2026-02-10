@@ -364,7 +364,7 @@ else:
 # ----------------------------
 # HEADER UI
 # ----------------------------
-st.title("🎙️ InterviewQuest")
+st.title("🎙️ VoiceQuest")
 st.caption("AI Voice Interview Game • Speak your way to success")
 
 # Top Stats Bar
