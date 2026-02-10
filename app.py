@@ -86,7 +86,7 @@ def tts_play(text: str):
     audio_html = f'<audio autoplay><source src="data:audio/mp3;base64,{b64}" type="audio/mp3"></audio>'
     st.markdown(audio_html, unsafe_allow_html=True)
 
-st.set_page_config(page_title="InterviewQuest", page_icon="🎙️", layout="wide")
+st.set_page_config(page_title="VoiceQuest", page_icon="🎙️", layout="wide")
 apply_modern_style()
 
 # (The rest of your exact code follows below)
@@ -321,7 +321,7 @@ def make_pdf_report(player_name: str, role_name: str, history: List[Dict[str, An
     _, height = A4
     y = height - 50
     c.setFont("Helvetica-Bold", 16)
-    c.drawString(50, y, "InterviewQuest - Performance Report")
+    c.drawString(50, y, "VoiceQuest - Performance Report")
     y -= 25
     c.setFont("Helvetica", 11)
     c.drawString(50, y, f"Player: {player_name}"); y -= 15
