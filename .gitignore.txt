@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit
+.streamlit/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Node / React junk
+node_modules/
+build/
+dist/
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.mp3
+*.wav
+*.tmp
+*.log
+
+# VS Code
+.vscode/
+
+# Leaderboard local file
+leaderboard.csv

@@ -1,0 +1,9 @@
+streamlit
+SpeechRecognition
+pyaudio
+numpy
+matplotlib
+openai
+reportlab
+gTTS
+requests
